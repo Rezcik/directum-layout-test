@@ -1,0 +1,20 @@
+.input {
+    padding: 6px 8px;
+    margin-bottom: 16px;
+
+    width: 340px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    border: 1px solid #B5BFC3;
+    color: #B5BFC3;
+}
+@media (max-width: 500px) {
+    .input {
+        width: 260px;
+    }
+}

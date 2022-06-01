@@ -1,0 +1,13 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 133px 0 48px;
+    transition: 0.2s linear;
+}
+@media (max-width: 530px) {
+    .logo {
+        margin: 48px 0 16px;
+    }
+}

@@ -1,0 +1,24 @@
+.description {
+    max-width: 540px;
+
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    transition: 0.2s linear;
+}
+.description > p {
+    margin-bottom: 10px;
+}
+@media (max-width: 1000px) {
+    .description {
+        max-width: 690px;
+        text-align: left;
+    }
+}
+@media (max-width: 500px) {
+    .description {
+        display: none;
+    }
+}

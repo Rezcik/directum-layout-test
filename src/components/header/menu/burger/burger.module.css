@@ -1,0 +1,32 @@
+.burger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 40px;
+    height: 24px;
+}
+.burger > div {
+    width: 40px;
+    height: 4px;
+
+    background: #FFFFFF;
+}
+@media (max-width: 768px) {
+    .burger {
+        display: flex;
+    }
+}
+.burger > div {
+    transition: 0.2s linear;
+}
+.active > div:nth-child(1) {
+    transform: rotate(-45deg);
+}
+.active > div:nth-child(2) {
+    opacity: 0;
+    transform: translateY(-10px) rotate(-45deg);
+}
+.active > div:nth-child(3) {
+    transform: translateY(-20px) rotate(45deg);
+}

@@ -1,0 +1,29 @@
+.info {
+    display: flex;
+    justify-content: center;
+
+    padding: 48px 15px;
+
+    width: 100%;
+
+    background: #F8F9FA;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    max-width: 1140px;
+    width: 100%;
+}
+
+@media (max-width: 1000px) {
+    .wrapper {
+        justify-content: center;
+    }
+}
+@media (max-width: 500px) {
+    .info {
+        padding: 24px 15px;
+    }
+}
