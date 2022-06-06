@@ -11,21 +11,24 @@ export function Price() {
             />
             <div className={styles.wrapper}>
                 <table className={styles.table}>
-                    <tr>
-                        <th></th>
-                        <th>Стоимость ДО 1 января</th>
-                        <th>Стоимость ПОСЛЕ 1 января</th>
-                    </tr>
-                    <tr>
-                        <td>С проживанием в 2-местном номере</td>
-                        <td>30 000 ₽</td>
-                        <td>35 000 ₽</td>
-                    </tr>
-                    <tr>
-                        <td>Доплата за 1-местное проживание</td>
-                        <td>500 ₽</td>
-                        <td>1 500 ₽</td>
-                    </tr>
+                    <thead></thead>
+                    <tbody>
+                        <tr>
+                            <th></th>
+                            <th>Стоимость ДО 1 января</th>
+                            <th>Стоимость ПОСЛЕ 1 января</th>
+                        </tr>
+                        <tr>
+                            <td>С проживанием в 2-местном номере</td>
+                            <td>30 000 ₽</td>
+                            <td>35 000 ₽</td>
+                        </tr>
+                        <tr>
+                            <td>Доплата за 1-местное проживание</td>
+                            <td>500 ₽</td>
+                            <td>1 500 ₽</td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
         </div>

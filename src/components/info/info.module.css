@@ -17,7 +17,7 @@
     width: 100%;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1020px) {
     .wrapper {
         justify-content: center;
     }
